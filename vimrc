@@ -21,4 +21,5 @@ set showcmd
 set hlsearch
 set history=50 
 set helplang=es 
-
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
